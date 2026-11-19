@@ -202,7 +202,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="eyebrow">Step 01 · Business Profile</div>
   <div class="sec-title">Pahami bisnisnya terlebih dahulu</div>
   <div class="sec-desc">Pilih sektor terlebih dahulu — badge 🟢🟡🔴 akan muncul di tiap metrik untuk menunjukkan mana yang relevan, perlu dimodifikasi, atau di-skip untuk sektor tersebut.</div>
-  <div class="q-card"><div class="q-text">"Never invest in a business you cannot understand."</div><div class="q-attr">— Warren Buffett · Annual Letter 1996</div></div>
+  <div class="q-card"><div class="q-text">"You only have to be able to evaluate companies within your circle of competence."</div><div class="q-attr">— Warren Buffett · Annual Letter 1996</div></div>
   <div class="field"><div class="field-hd"><span class="field-name">Nama Bisnis</span></div><input type="text" id="biz-name" placeholder="e.g. Bank BCA, GOTO, Adaro Energy..." oninput="updateAll()"></div>
   <div class="field">
     <div class="field-hd"><span class="field-name">Sektor Industri</span><span style="font-size:10px;color:var(--gold);font-family:var(--mono)">⚡ Auto-adjusts metrics</span></div>
@@ -334,13 +334,13 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="eyebrow">Step 02 · Competitive Moat</div>
   <div class="sec-title">Seberapa dalam paritnya?</div>
   <div class="sec-desc">Buffett bilang moat adalah satu-satunya hal yang membuat bisnis bagus menjadi bisnis luar biasa. Tanpa moat, profit hari ini adalah undangan untuk kompetitor besok.</div>
-  <div class="q-card"><div class="q-text">"The key to investing is determining the competitive advantage of any given company and, above all, the durability of that advantage."</div><div class="q-attr">— Warren Buffett · Fortune Magazine, 1999</div></div>
+  <div class="q-card"><div class="q-text">"The key to investing is [...] determining the competitive advantage of any given company and, above all, the durability of that advantage."</div><div class="q-attr">— Warren Buffett · Fortune, 22 November 1999 (kutipan dipotong dengan elipsis)</div></div>
   <div class="section-lbl">5 Jenis Moat Buffett</div>
   <div class="chk-list">
     <div class="chk-item" onclick="tog(this,'mq1')"><div class="chk-box">✓</div><div><div class="chk-title">🏷️ Brand Power / Consumer Loyalty</div><div class="chk-desc">Orang mau bayar premium hanya karena nama brand-nya — Coke, Apple, See's Candies. Brand yang di-love, bukan sekedar liked.</div></div></div>
-    <div class="chk-item" onclick="tog(this,'mq2')"><div class="chk-box">✓</div><div><div class="chk-title">🔄 Switching Cost yang Tinggi</div><div class="chk-desc">Pelanggan rugi besar jika berpindah — integrasi sistem, data lock-in, retraining staff. Seperti Bloomberg Terminal: $24k/tahun tapi tidak ada yang berani switch.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mq2')"><div class="chk-box">✓</div><div><div class="chk-title">🔄 Switching Cost yang Tinggi</div><div class="chk-desc">Pelanggan rugi besar jika berpindah — integrasi sistem, data lock-in, retraining staff. Contoh: terminal data keuangan profesional yang jarang ditinggalkan penggunanya.</div></div></div>
     <div class="chk-item" onclick="tog(this,'mq3')"><div class="chk-box">✓</div><div><div class="chk-title">🌐 Network Effect</div><div class="chk-desc">Semakin banyak pengguna → semakin valuable produknya. Amex: lebih banyak merchant terima → lebih banyak user → lebih banyak merchant.</div></div></div>
-    <div class="chk-item" onclick="tog(this,'mq4')"><div class="chk-box">✓</div><div><div class="chk-title">💰 Cost Advantage (Low-Cost Producer)</div><div class="chk-desc">Bisa jual lebih murah dari siapapun karena struktur cost yang lebih efisien. GEICO: direct-to-consumer → 15-20% lebih murah dari kompetitor.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mq4')"><div class="chk-box">✓</div><div><div class="chk-title">💰 Cost Advantage (Low-Cost Producer)</div><div class="chk-desc">Bisa jual lebih murah dari siapapun karena struktur cost yang lebih efisien. GEICO: penjualan langsung ke konsumen menekan biaya operasional.</div></div></div>
     <div class="chk-item" onclick="tog(this,'mq5')"><div class="chk-box">✓</div><div><div class="chk-title">📜 Regulatory Moat / Intangible Assets</div><div class="chk-desc">Lisensi eksklusif, patent, regulasi yang membatasi kompetitor. Utility company Berkshire tidak bisa dimasuki kompetitor baru — regulated monopoly.</div></div></div>
   </div>
   <div class="section-lbl">Pricing Power Analysis</div>
@@ -372,13 +372,13 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="sec-title">Berapa nilai sesungguhnya?</div>
   <div class="sec-desc">Buffett tidak pakai P/E atau EV/EBITDA. Dia hitung "Owner Earnings" — cash nyata yang bisa diambil dari bisnis tanpa mengorbankan kemampuannya menghasilkan uang di masa depan.</div>
   <div id="oe-sector-note" style="display:none"></div>
-  <div class="q-card"><div class="q-text">"Intrinsic value can be defined simply: it is the discounted value of the cash that can be taken out of a business during its remaining life."</div><div class="q-attr">— Warren Buffett · Owner's Manual, 1996</div></div>
+  <div class="q-card"><div class="q-text">"Intrinsic value can be defined simply: It is the discounted value of the cash that can be taken out of a business during its remaining life."</div><div class="q-attr">— Warren Buffett · Owner's Manual, 1996</div></div>
   <div class="fmla-box" style="margin-bottom:18px">
     <div class="fmla-lbl">⑦ Master Formula — Owner Earnings</div>
     <div class="fmla-eq">Owner Earnings = Net Income + D&amp;A − Maintenance CapEx ± ΔWorking Capital</div>
     <div class="fmla-vars"><b>Net Income</b> = laba bersih setelah pajak (GAAP)<br><b>D&amp;A</b> = Depreciation &amp; Amortization — non-cash, ditambahkan kembali<br><b>Maintenance CapEx</b> = capex WAJIB untuk mempertahankan posisi bisnis saat ini<br><b>ΔWorking Capital</b> = perubahan modal kerja (positif = butuh lebih banyak cash)</div>
   </div>
-  <div class="field"><div class="field-hd"><span class="field-name">Mata uang seluruh angka di tab ini</span></div><select id="cur" onchange="setCur()"><option value="Rp">Rupiah (Rp, juta)</option><option value="$">Dolar AS ($, juta)</option></select><div class="tip info" style="margin-top:8px">Isi semua angka (laba, D&amp;A, CapEx, modal kerja, harga pasar) dengan mata uang dan periode yang sama. Discount rate harus sesuai mata uang arus kas.</div></div>
+  <div class="field"><div class="field-hd"><span class="field-name">Mata uang seluruh angka di tab ini</span></div><select id="cur" onchange="setCur()"><option value="Rp">Rupiah (Rp; input dalam juta, tampilan jt/T = triliun)</option><option value="$">Dolar AS ($, juta)</option></select><div class="tip info" style="margin-top:8px">Isi semua angka (laba, D&amp;A, CapEx, modal kerja, harga pasar) dengan mata uang dan periode yang sama. Discount rate harus sesuai mata uang arus kas.</div></div>
   <div id="input-warn"></div>
   <div class="grid-2">
     <div class="field"><div class="field-hd"><span class="field-name">① Net Income (juta)</span></div><input type="number" id="net-income" placeholder="e.g. 100" oninput="calcAll()"></div>
@@ -420,7 +420,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="eyebrow">Step 04 · Margin of Safety</div>
   <div class="sec-title">Seberapa besar safety cushion-mu?</div>
   <div class="sec-desc">Konsep MOS dari Ben Graham, disempurnakan Buffett. Beli dengan diskon dari nilai intrinsik untuk memproteksi diri dari kesalahan analisis dan ketidakpastian masa depan.</div>
-  <div class="q-card"><div class="q-text">"The three most important words in investing are: margin of safety. When you build a bridge, you insist it can carry 30,000 pounds, but you only drive 10,000-pound trucks across it."</div><div class="q-attr">— Warren Buffett · parafrase dari Ben Graham</div></div>
+  <div class="q-card"><div class="q-text">Margin of safety: beli hanya ketika harga cukup jauh di bawah nilai intrinsik, sehingga kesalahan estimasi tidak langsung menjadi kerugian.</div><div class="q-attr">— Konsep Benjamin Graham, dirangkum penulis (bukan kutipan langsung)</div></div>
   <div class="field"><div class="field-hd"><span class="field-name">Harga Pasar Saat Ini — Market Cap atau Enterprise Value (juta)</span></div><input type="number" id="mkt-price" placeholder="e.g. 600" oninput="calcMOS()"></div>
   <div class="card">
     <div class="res-row"><span class="res-key">Intrinsic Value (dari Step 03)</span><span class="res-val big" id="mos-iv" style="color:var(--gold)">—</span></div>
@@ -468,7 +468,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="eyebrow">Step 05 · Management Quality</div>
   <div class="sec-title">Siapa yang mengemudikan kapal ini?</div>
   <div class="sec-desc">Buffett beli "able and trustworthy management" — dua kata yang tidak bisa dipisahkan. Bisnis terbaik pun bisa hancur di tangan manajemen yang salah.</div>
-  <div class="q-card"><div class="q-text">"In evaluating people, you look for three qualities: integrity, intelligence, and energy. And if they don't have the first, the other two will kill you."</div><div class="q-attr">— Warren Buffett · Annual Letter 1989</div></div>
+  <div class="q-card"><div class="q-text">Buffett menyebut tiga kualitas dalam menilai orang: integritas, kecerdasan, dan energi.</div><div class="q-attr">— Parafrase penulis dari ucapan Buffett di Columbia Business School, 1993 (dilaporkan Omaha World-Herald, 1994)</div></div>
   <div class="section-lbl">Buffett's 6 Management Criteria (★ 1–5)</div>
   <div class="grid-2">
     <div class="card-sm"><div class="metric-label" style="font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px">Kejujuran &amp; Transparansi</div><div class="stars" id="s0"><span class="star" onclick="setStar(0,1)">★</span><span class="star" onclick="setStar(0,2)">★</span><span class="star" onclick="setStar(0,3)">★</span><span class="star" onclick="setStar(0,4)">★</span><span class="star" onclick="setStar(0,5)">★</span></div></div>
@@ -480,10 +480,10 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   </div>
   <div class="section-lbl">Buffett Management Checklist</div>
   <div class="chk-list">
-    <div class="chk-item" onclick="tog(this,'mc1')"><div class="chk-box">✓</div><div><div class="chk-title">CEO punya skin in the game — invest uang pribadi di bisnis ini</div><div class="chk-desc">Buffett sendiri hold 99% kekayaannya di Berkshire. Manager yang tidak invest sendiri tidak merasakan konsekuensi keputusannya.</div></div></div>
-    <div class="chk-item" onclick="tog(this,'mc2')"><div class="chk-box">✓</div><div><div class="chk-title">Tidak menggunakan EBITDA sebagai metric utama</div><div class="chk-desc">Buffett: "EBITDA is a flawed favorite of those who wish to downplay capital requirements." Pakai Free Cash Flow.</div></div></div>
-    <div class="chk-item" onclick="tog(this,'mc3')"><div class="chk-box">✓</div><div><div class="chk-title">Pernah secara terbuka mengakui kesalahan bisnis</div><div class="chk-desc">Buffett pakai kata "mistake/error" 16x dalam 5 tahun surat. Kejujuran = tanda manajemen jangka panjang yang sesungguhnya.</div></div></div>
-    <div class="chk-item" onclick="tog(this,'mc4')"><div class="chk-box">✓</div><div><div class="chk-title">Buyback dilakukan ketika harga di bawah nilai intrinsik</div><div class="chk-desc">Buyback ketika overvalued adalah penghancuran nilai shareholder. Buffett hanya approve buyback di bawah IV.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mc1')"><div class="chk-box">✓</div><div><div class="chk-title">CEO punya skin in the game — invest uang pribadi di bisnis ini</div><div class="chk-desc">Buffett menaruh hampir seluruh kekayaannya di Berkshire. Manager yang tidak invest sendiri tidak merasakan konsekuensi keputusannya.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mc2')"><div class="chk-box">✓</div><div><div class="chk-title">Tidak menggunakan EBITDA sebagai metric utama</div><div class="chk-desc">Buffett (Surat Tahunan 2000): "References to EBITDA make us shudder — does management think the tooth fairy pays for capital expenditures?" Pakai Free Cash Flow.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mc3')"><div class="chk-box">✓</div><div><div class="chk-title">Pernah secara terbuka mengakui kesalahan bisnis</div><div class="chk-desc">Buffett rutin mengakui kesalahannya secara terbuka di surat tahunan Berkshire. Kejujuran = tanda manajemen jangka panjang yang sesungguhnya.</div></div></div>
+    <div class="chk-item" onclick="tog(this,'mc4')"><div class="chk-box">✓</div><div><div class="chk-title">Buyback dilakukan ketika harga di bawah nilai intrinsik</div><div class="chk-desc">Buyback ketika harga di atas nilai intrinsik merugikan pemegang saham jangka panjang. Prinsipnya: buyback hanya masuk akal bila harga di bawah nilai intrinsik.</div></div></div>
     <div class="chk-item" onclick="tog(this,'mc5')"><div class="chk-box">✓</div><div><div class="chk-title">Tidak ganti strategi besar-besaran setiap 2-3 tahun</div><div class="chk-desc">Konsistensi strategi = moat manajemen. Sering ganti strategi = tanda tidak punya competitive advantage yang jelas.</div></div></div>
   </div>
   <div class="card">
@@ -613,7 +613,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
       <div class="alt-metric-row"><div><div class="alt-metric-name">Net Asset Value (NAV) / P/NAV</div><div class="alt-metric-bench">Valuasi mining = PV of future mine cash flows. P/NAV &lt;0.8× = cheap. &gt;1.3× = premium harus justified.</div></div></div>
       <div class="alt-metric-row"><div><div class="alt-metric-name">All-In Sustaining Cost (AISC) — gold/nickel</div><div class="alt-metric-bench">AISC termasuk maintenance capex + corporate overhead. Margin AISC vs spot price &gt;30% = comfortable buffer.</div></div></div>
     </div>
-    <div class="sector-alert"><strong>⚠️ Buffett Warning untuk Mining</strong>"Commodities businesses are mediocre unless you have the lowest cost position." Gunakan EV/EBITDA 4–8× vs peer dan P/NAV sebagai primary valuation — bukan DCF standard.</div>
+    <div class="sector-alert"><strong>⚠️ Buffett Warning untuk Mining</strong>Buffett menekankan bahwa pada bisnis komoditas, keunggulan sebagai produsen berbiaya terendah sangat menentukan (parafrase penulis). Gunakan EV/EBITDA vs peer (rentang 4–8× adalah heuristik penulis, belum bersumber) dan P/NAV sebagai primary valuation — bukan DCF standard.</div>
   </div>
 
   <!-- OIL -->
@@ -757,11 +757,11 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
   <div class="eyebrow">Step 07 · Buffett's Exceptions &amp; Lessons</div>
   <div class="sec-title">Ketika Oracle melanggar aturannya sendiri</div>
   <div class="sec-desc">Buffett punya prinsip ketat — tapi ada momen di mana dia break rules-nya sendiri. Pelajari pola kemenangan dan kegagalannya.</div>
-  <div class="q-card"><div class="q-text">"I make plenty of mistakes. And I'm going to make mistakes in the future. It's part of the game. You just have to make sure that the right things overcome the wrong ones."</div><div class="q-attr">— Warren Buffett · CNBC Interview</div></div>
+  <div class="q-card"><div class="q-text">"But I'll make more mistakes in the future – you can bet on that."</div><div class="q-attr">— Warren Buffett · Surat Tahunan Berkshire 2007 (dikutip dari salinan surat)</div></div>
   <div class="exc-grid">
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🍎</div><div><div class="exc-co">Apple (2016 — sekarang)</div><div class="exc-sub">Broke: "No tech companies"</div></div><div class="exc-result"><div class="exc-badge badge-win">WIN: +$120B+</div></div></div>
-      <div class="exc-body"><div class="exc-q">"I don't think of it as a stock. I think of it as our third business — right after insurance and BNSF."</div><div class="exc-lesson"><strong>Rule yang dilanggar:</strong> Selama 30+ tahun Buffett bilang tidak akan invest di tech. <strong>Berhasil karena:</strong> Re-frame Apple sebagai consumer franchise, bukan tech company. 2 miliar iPhone users = captive audience dengan switching cost yang extraordinary. <strong>Pelajaran:</strong> Rules adalah tools, bukan penjara. Tanyakan karakteristik bisnis, bukan label industri.</div></div>
+      <div class="exc-body"><div class="exc-q">"I don't think of Apple as a stock. I think of it as our third business." — CNBC Squawk Box, 24 Februari 2020</div><div class="exc-lesson"><strong>Rule yang dilanggar:</strong> Sebelumnya Buffett dikenal menghindari perusahaan teknologi. <strong>Berhasil karena:</strong> Re-frame Apple sebagai consumer franchise, bukan tech company. Basis pengguna iPhone yang sangat besar menciptakan switching cost (penilaian penulis). <strong>Pelajaran:</strong> Rules adalah tools, bukan penjara. Tanyakan karakteristik bisnis, bukan label industri.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">✈️</div><div><div class="exc-co">Airlines — Delta, United, Southwest, American (2016–2020)</div><div class="exc-sub">Broke: "Never invest in airlines"</div></div><div class="exc-result"><div class="exc-badge badge-loss">LOSS: ~$3B</div></div></div>
@@ -769,31 +769,31 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🏭</div><div><div class="exc-co">Berkshire Hathaway Textile (1962)</div><div class="exc-sub">Cigar butt investing — biggest conceptual mistake</div></div><div class="exc-result"><div class="exc-badge badge-lesson">LESSON: $0 value</div></div></div>
-      <div class="exc-body"><div class="exc-q">"That move was a mistake — my mistake — and one that plagued us for two decades. Charlie spotted my obvious error immediately."</div><div class="exc-lesson"><strong>Kesalahan konseptual terbesar:</strong> Beli bisnis sekarat hanya karena harganya sangat murah — "cigar butt investing" ala Ben Graham. <strong>Gagal karena:</strong> Industri tekstil AS tidak bisa compete dengan impor murah dari Asia. <strong>Pelajaran:</strong> Charlie Munger mengubah Buffett dari "beli bisnis mediocre dengan harga murah" menjadi "beli bisnis wonderful dengan harga fair." Tanpa kesalahan ini, tidak ada Berkshire modern.</div></div>
+      <div class="exc-body"><div class="exc-q">"That move was a mistake – my mistake – and one that plagued us for two decades." — Surat Tahunan Berkshire 2024 (dikutip via Barchart)</div><div class="exc-lesson"><strong>Kesalahan konseptual terbesar:</strong> Beli bisnis sekarat hanya karena harganya sangat murah — "cigar butt investing" ala Ben Graham. <strong>Gagal karena:</strong> Industri tekstil AS tidak bisa compete dengan impor murah dari Asia. <strong>Pelajaran:</strong> Charlie Munger mengubah Buffett dari "beli bisnis mediocre dengan harga murah" menjadi "beli bisnis wonderful dengan harga fair." Tanpa kesalahan ini, tidak ada Berkshire modern.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">👟</div><div><div class="exc-co">Dexter Shoe Company (1993)</div><div class="exc-sub">Paid with Berkshire STOCK — compounded mistake</div></div><div class="exc-result"><div class="exc-badge badge-loss">LOSS: ~$3.5B real cost</div></div></div>
-      <div class="exc-body"><div class="exc-q">"I bought Dexter Shoe for $433 million in Berkshire stock. What I thought was a durable competitive advantage vanished within a few years."</div><div class="exc-lesson"><strong>Double mistake:</strong> Pertama, salah analisis moat — impor murah Asia menghancurkan brand sepatu lokal AS. Kedua, bayar dengan saham Berkshire yang terus naik nilainya. Saham yang diberikan untuk Dexter sekarang bernilai $3.5B. Dexter nilainya $0. <strong>Pelajaran:</strong> Never pay for a failing business with shares of your best asset. Selalu verifikasi moat terhadap ancaman global competition.</div></div>
+      <div class="exc-body"><div class="exc-q">"a shoe business I bought in 1993 for $433 million in Berkshire stock [...] What I had assessed as durable competitive advantage vanished within a few years." — Surat Tahunan Berkshire 2007 (dikutip dari salinan surat)</div><div class="exc-lesson"><strong>Double mistake:</strong> Pertama, salah analisis moat — keunggulan kompetitif yang ia kira tahan lama hilang dalam beberapa tahun. Kedua, bayar dengan saham Berkshire yang terus naik nilainya. Menurut Buffett, biaya akhirnya bagi pemegang saham Berkshire bukan $400 juta melainkan $3,5 miliar (surat 2007). <strong>Pelajaran:</strong> Never pay for a failing business with shares of your best asset. Selalu verifikasi moat terhadap ancaman global competition.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">📦</div><div><div class="exc-co">Amazon — tidak dibeli (1997–sekarang)</div><div class="exc-sub">Terbesar: bisnis luar biasa yang dilewatkan</div></div><div class="exc-result"><div class="exc-badge badge-miss">MISSED: 100,000%+ return</div></div></div>
-      <div class="exc-body"><div class="exc-q">"I was wrong about Amazon. I just didn't think Bezos could do what he did."</div><div class="exc-lesson"><strong>Mengapa missed:</strong> Amazon sengaja tidak profitable selama bertahun-tahun — berlawanan langsung dengan prinsip Owner Earnings positif. <strong>Yang Buffett salah prediksi:</strong> Platform yang sengaja negative Owner Earnings bisa create moat jauh lebih besar dari bisnis yang profitable dari hari pertama. AWS adalah hasil dari investasi tanpa profit bertahun-tahun. <strong>Insight:</strong> Ini adalah genuine blind spot Buffett yang dia akui sendiri.</div></div>
+      <div class="exc-body"><div class="exc-q">"I was too dumb to realize. I did not think [Bezos] could succeed on the scale he has." — CNBC, Rapat Tahunan Mei 2017</div><div class="exc-lesson"><strong>Mengapa missed:</strong> Amazon sengaja tidak profitable selama bertahun-tahun — berlawanan langsung dengan prinsip Owner Earnings positif. <strong>Yang Buffett salah prediksi:</strong> Platform yang sengaja negative Owner Earnings bisa create moat jauh lebih besar dari bisnis yang profitable dari hari pertama. AWS adalah hasil dari investasi tanpa profit bertahun-tahun. <strong>Insight:</strong> Ini adalah genuine blind spot Buffett yang dia akui sendiri.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🏦</div><div><div class="exc-co">Goldman Sachs — Crisis Investment (2008)</div><div class="exc-sub">Special structure: Preferred + Warrants at crisis price</div></div><div class="exc-result"><div class="exc-badge badge-win">WIN: +$3.7B profit</div></div></div>
-      <div class="exc-body"><div class="exc-q">"Be fearful when others are greedy, and greedy when others are fearful."</div><div class="exc-lesson"><strong>Deal structure unik:</strong> September 2008, puncak krisis. $5B preferred shares dengan 10%/yr dividend PLUS warrants untuk beli saham biasa di harga krisis. Ini bukan investasi biasa — ini structured deal dengan terms yang hanya bisa didapat ketika kamu punya modal besar dan reputasi kuat. <strong>Pelajaran:</strong> Modal besar di market panic = bisa negotiate asymmetric risk/reward yang tidak tersedia untuk investor biasa.</div></div>
+      <div class="exc-body"><div class="exc-q">"A simple rule dictates my buying: Be fearful when others are greedy, and be greedy when others are fearful." — The New York Times, 16 Oktober 2008</div><div class="exc-lesson"><strong>Deal structure unik:</strong> September 2008, puncak krisis. $5B preferred shares dengan 10%/yr dividend PLUS warrants untuk membeli saham biasa seharga $115 per saham (siaran pers Goldman Sachs, 23 September 2008). Ini bukan investasi biasa — ini structured deal dengan terms yang hanya bisa didapat ketika kamu punya modal besar dan reputasi kuat. <strong>Pelajaran:</strong> Modal besar di market panic = bisa negotiate asymmetric risk/reward yang tidak tersedia untuk investor biasa.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🇯🇵</div><div><div class="exc-co">Japanese Trading Houses — Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (2020)</div><div class="exc-sub">Broke: "Invest only in what you understand deeply"</div></div><div class="exc-result"><div class="exc-badge badge-win">WIN: +60%+ gain</div></div></div>
-      <div class="exc-body"><div class="exc-q">"We simply looked at their financial records and were amazed at the low prices. We had no idea about many of the businesses they were in."</div><div class="exc-lesson"><strong>Rule yang dilanggar:</strong> Buffett tidak memahami detail bisnis (ratusan industri berbeda). Tapi beli karena pure financial metrics terlalu menarik: P/B 0.6–0.8×, management sangat shareholder-friendly, buyback agresif, dividend konsisten. <strong>Insight:</strong> Kadang "understanding" bisa berarti memahami financial structure dan management quality tanpa perlu tahu detail operasional setiap bisnis. Berlaku khusus untuk well-managed conglomerates dengan track record panjang.</div></div>
+      <div class="exc-body"><div class="exc-q">"We simply looked at their financial records and were amazed at the low prices of their stocks." — dikutip Morningstar dari surat Berkshire (trading house Jepang)</div><div class="exc-lesson"><strong>Rule yang dilanggar:</strong> Buffett tidak memahami detail bisnis (ratusan industri berbeda). Tapi beli karena pure financial metrics terlalu menarik: harga saham sangat rendah relatif terhadap laporan keuangannya. <strong>Insight:</strong> Kadang "understanding" bisa berarti memahami financial structure dan management quality tanpa perlu tahu detail operasional setiap bisnis. Berlaku khusus untuk well-managed conglomerates dengan track record panjang.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🥤</div><div><div class="exc-co">Coca-Cola (1988) — Bayar premium 15× earnings</div><div class="exc-sub">Graham standard: max 10–12×. Buffett bayar 15×</div></div><div class="exc-result"><div class="exc-badge badge-win">WIN: $1.3B → $25B+</div></div></div>
-      <div class="exc-body"><div class="exc-q">"When you find something that you are very certain about, pay up."</div><div class="exc-lesson"><strong>Evolusi terbesar Buffett:</strong> Dari Graham "beli murah" → "beli certainty." Dia yakin dengan hampir absolut bahwa Coke akan dominant selama 30+ tahun karena brand tidak bisa dibangun ulang dengan uang apapun di dunia. <strong>Legacy generasi investing:</strong> "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price." Ini adalah lesson terbesar yang Charlie Munger tanamkan via See's Candies di 1972.</div></div>
+      <div class="exc-body"><div class="exc-q">Buffett bergeser dari "beli murah" ala Graham ke "beli bisnis berkualitas dengan harga wajar" (parafrase penulis).</div><div class="exc-lesson"><strong>Evolusi terbesar Buffett:</strong> Dari Graham "beli murah" → "beli certainty." Dia yakin dengan hampir absolut bahwa Coke akan dominant selama 30+ tahun karena brand tidak bisa dibangun ulang dengan uang apapun di dunia. <strong>Legacy generasi investing:</strong> "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price." Ini adalah lesson terbesar yang Charlie Munger tanamkan via See's Candies di 1972.</div></div>
     </div>
     <div class="exc-card" onclick="toggleExc(this)">
       <div class="exc-header"><div class="exc-icon">🍫</div><div><div class="exc-co">See's Candies (1972) — Beli di 3× Book Value</div><div class="exc-sub">Charlie harus "drag" Buffett ke deal ini</div></div><div class="exc-result"><div class="exc-badge badge-win">WIN: $25M → $2B+ return</div></div></div>
-      <div class="exc-body"><div class="exc-q">"Charlie had to drag me into buying See's at $25M — $8M over book value. I was too Graham-oriented. I thought: who the hell buys expensive chocolate?"</div><div class="exc-lesson"><strong>Paradoks terbesar:</strong> Deal yang paling mengubah cara berpikir Buffett adalah yang hampir tidak terjadi karena dia terlalu terpaku pada book value. <strong>Yang See's ajarkan:</strong> Intangible brand value tidak muncul di balance sheet. Harga coklat naik dari $2/lb di 1972 ke $25+/lb sekarang, dan demand tetap stabil — itulah pricing power sesungguhnya. <strong>Legacy:</strong> Tanpa See's Candies, tidak ada investasi Coca-Cola. Ini adalah titik balik paling penting dalam karir Buffett.</div></div>
+      <div class="exc-body"><div class="exc-q">Blue Chip Stamps membeli See's pada 1972 seharga $25 juta, saat aset berwujud bersihnya sekitar $8 juta (parafrase penulis dari surat Berkshire).</div><div class="exc-lesson"><strong>Paradoks terbesar:</strong> Deal yang sering disebut sebagai titik balik pendekatan Buffett: membayar jauh di atas nilai buku untuk merek yang kuat. <strong>Yang See's ajarkan:</strong> Intangible brand value tidak muncul di balance sheet. Harga per pound See's sekitar $1,95 pada 1972 dan terus naik sementara permintaan bertahan — contoh pricing power. <strong>Legacy:</strong> Tanpa See's Candies, tidak ada investasi Coca-Cola. Ini adalah titik balik paling penting dalam karir Buffett.</div></div>
     </div>
   </div>
   <div class="tip"><strong>Pola dari semua exceptions:</strong> Buffett paling sukses ketika melanggar aturan untuk menangkap consumer franchise/brand moat yang sangat kuat (Apple, Coke, See's). Paling gagal ketika melanggar aturan untuk bisnis yang terlihat murah tapi tidak punya real moat (Textile, Dexter, Airlines).</div>
@@ -829,7 +829,7 @@ hr{border:none;border-top:1px solid var(--border);margin:22px 0}
     <div class="res-row"><span class="res-key">Intrinsic Value</span><span class="res-val" id="v-iv" style="color:var(--gold)">—</span></div>
     <div class="res-row"><span class="res-key">Margin of Safety</span><span class="res-val" id="v-mos-final">—</span></div>
   </div>
-  <div class="q-card"><div class="q-text" id="v-quote-text">"Price is what you pay. Value is what you get."</div><div class="q-attr" id="v-quote-attr">— Warren Buffett</div></div>
+  <div class="q-card"><div class="q-text" id="v-quote-text">"Price is what you pay; value is what you get."</div><div class="q-attr" id="v-quote-attr">— Warren Buffett mengutip Ben Graham · Surat Tahunan 2008</div></div>
   <div class="section-lbl">Buffett's 4 Criteria — Final Check</div>
   <table class="rules-tbl">
     <thead><tr><th>Kriteria</th><th>Status</th><th>Score</th></tr></thead>
@@ -884,8 +884,11 @@ const S = {checks:{},stars:[0,0,0,0,0,0],pricingPower:5,retention:80,g1:10,g2:3,
 
 let CUR='Rp';
 function fmtM(x,d){
-  const n=Number(x).toLocaleString(CUR==='Rp'?'id-ID':'en-US',{minimumFractionDigits:d||0,maximumFractionDigits:d||0});
-  return CUR==='Rp'?'Rp'+n+' jt':'$'+n+'M';
+  if(CUR==='Rp'){
+    if(Math.abs(x)>=1e6)return 'Rp'+(x/1e6).toLocaleString('id-ID',{minimumFractionDigits:1,maximumFractionDigits:1})+' T';
+    return 'Rp'+Number(x).toLocaleString('id-ID',{minimumFractionDigits:d||0,maximumFractionDigits:d||0})+' jt';
+  }
+  return '$'+Number(x).toLocaleString('en-US',{minimumFractionDigits:d||0,maximumFractionDigits:d||0})+'M';
 }
 function setCur(){CUR=document.getElementById('cur').value;calcAll();}
 function warn(msgs){
@@ -1200,11 +1203,11 @@ function updateMOSGauge(){
 }
 
 function buildSensMatrix(){
-  const growths=[...new Set([3,5,7,9,10,12,15,20,S.g1])].sort((a,b)=>a-b);const discounts=[...new Set([7,8,9,10,11,12,13,15,S.dr])].sort((a,b)=>a-b);
+  const growths=[...new Set([3,5,7,9,10,12,15,20,S.g1])].sort((a,b)=>a-b);const discounts=[...new Set([8,10,11,12,13,15,S.dr])].sort((a,b)=>a-b);
   const thead=document.querySelector('.sens-tbl thead');if(thead)thead.innerHTML='<tr><th>Growth \\ Disc</th>'+discounts.map(d=>'<th'+(d===S.dr?' style="color:var(--gold)"':'')+'>'+d+'%</th>').join('')+'</tr>';
   const tbody=document.getElementById('sens-body');if(!tbody)return;
   tbody.innerHTML='';
-  if(!(S.oe>0)){tbody.innerHTML='<tr><td colspan="10" style="text-align:center;color:var(--dim);padding:16px;font-size:12px">Masukkan Owner Earnings di Step 03 dulu</td></tr>';return;}
+  if(!(S.oe>0)){tbody.innerHTML='<tr><td colspan="7" style="text-align:center;color:var(--dim);padding:16px;font-size:12px">Masukkan Owner Earnings di Step 03 dulu</td></tr>';return;}
   const g2=S.g2/100;
   growths.forEach(g=>{
     const tr=document.createElement('tr');
