@@ -33,6 +33,3 @@ Demo: https://otosakaayuu.github.io/Buffet-valuation/
 - Perbaikan 6 bug penilaian (metrik lewati, D/E nol, perusahaan rugi, ambang kategori, pengali 15×, matriks sensitivitas)
 - Pilihan mata uang dan label keputusan netral
 - Verifikasi dan perbaikan kutipan Buffett
-
-## Catatan
-Nama repositori saat ini `Buffet-valuation` (salah eja: seharusnya *Buffett*). Mengganti nama repositori mengubah URL demo, sehingga tautan di laporan perlu ikut diperbarui.
