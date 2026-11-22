@@ -27,7 +27,6 @@ Demo: https://otosakaayuu.github.io/Buffet-valuation/
 - Perhitungan diuji dengan 11 skenario black box (hasil yang diharapkan dihitung terpisah dari aplikasi).
 - Kutipan Buffett di aplikasi diperiksa ke sumber (November 2026); kutipan yang tidak terbukti diubah menjadi parafrase atau dihapus. Tiga kutipan (Dexter 2007, surat 2024, trading house Jepang) dikutip dari salinan sekunder.
 - Bobot skor, ambang metrik, rentang discount rate, dan rentang EV/EBITDA adalah asumsi penulis dan belum bersumber penuh.
-- Uji penerimaan pengguna (SUS) baru direncanakan, belum dilaksanakan.
 
 ## Riwayat perubahan
 - Perbaikan 6 bug penilaian (metrik lewati, D/E nol, perusahaan rugi, ambang kategori, pengali 15×, matriks sensitivitas)
