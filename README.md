@@ -2,7 +2,7 @@
 
 Alat bantu penilaian saham berbasis kerangka kuantitatif ala Warren Buffett, dibuat sebagai Tugas Akhir mata kuliah Desain Sistem Informasi (Akuntansi, STIE YKPN Yogyakarta). Aplikasi web satu berkas (`index.html`), berjalan di peramban tanpa server.
 
-Demo: https://otosakaayuu.github.io/Buffet-valuation/
+Demo: https://otosakaayuu.github.io/Buffett-valuation/
 
 > **Bukan rekomendasi investasi.** Hasil adalah alat bantu analisis yang sangat bergantung pada masukan dan penilaian pengguna.
 
